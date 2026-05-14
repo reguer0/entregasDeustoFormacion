@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../sass/abstracts/_reset.scss",
+        "../sass/abstracts/_variables.scss",
+        "../sass/layout/_containers.scss",
+        "../sass/abstracts/_mixins.scss",
+        "../sass/components/_form.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACE;EACA;EACA;;;AAGF;EACE;EACA,kBCNiB;EDOjB,OCNW;EDOX,WCJe;;;ACNjB;ECCE;EACA,gBDDc;ECEd,iBDFsB;ECGtB,aDH8B;EAC9B;EACA;;;AAGF;EACE;EACA,eDHc;ECId;EACA;EACA;EACA;;;AEZF;EACE;EACA,OHFc;EGGd;EACA;EACA;;;AAGF;EDPE;EACA,gBCOc;EDNd,iBCMsB;EDLtB,aCKkC;EAClC;;AAEA;EACE;EACA;EACA;EACA,OHfc;;AGkBhB;AAAA;EDXA;EACA;EACA;EACA,eFNc;EEOd,WFNe;EEOf;;AAEA;AAAA;EACE;EACA,cFjBY;;;AGyBhB;EDxBE;EACA,gBCwBc;EDvBd,iBCuBmB;EDtBnB,aCsBkC;EAClC;;AAEA;EACE;;;AAIJ;EACE;EACA;EACA,kBHrCc;EGsCd;EACA;EACA,eHnCc;EGoCd;EACA;EACA;EACA;;AAEA;EACE;;;AAIJ;EACE;EACA;EACA,kBHpDiB;EGqDjB,eHlDc;EGmDd;EACA;;AAEA;EACE;EACA,OH5Dc;EG6Dd;;AAGF;EACE;EACA;EACA;EACA,OHlES",
+    "file": "styles.css"
+}

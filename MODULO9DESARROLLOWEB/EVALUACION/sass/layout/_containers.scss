@@ -1,0 +1,14 @@
+.page-wrapper {
+  @include flex(column, center, center);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 560px;
+}

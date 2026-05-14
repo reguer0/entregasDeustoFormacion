@@ -1,0 +1,72 @@
+.form-title {
+  font-size: 1.5rem;
+  color: $primary-color;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 0.5rem;
+}
+
+.form-group {
+  @include flex(column, flex-start, flex-start);
+  margin-bottom: 1.2rem;
+
+  label {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+    color: $secondary-color;
+  }
+
+  input,
+  select {
+    @include input-style;
+  }
+}
+
+.form-row {
+  @include flex(row, space-between, flex-start);
+  gap: 1rem;
+
+  .form-group {
+    flex: 1;
+  }
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.result-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: $background-color;
+  border-radius: $border-radius;
+  border-left: 4px solid $primary-color;
+  display: none;
+
+  h3 {
+    font-size: 0.95rem;
+    color: $secondary-color;
+    margin-bottom: 0.5rem;
+  }
+
+  pre {
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+    color: $text-color;
+  }
+}
